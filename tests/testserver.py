@@ -7,7 +7,7 @@ from werkzeug.http import HTTP_STATUS_CODES
 app = Flask(__name__)
 app.secret_key = 'SECRET-KEY-FOR-EMACS-REQUEST-DEVELOPMENT'
 
-all_methods = ['GET', 'POST', 'PUT', 'DELETE']
+all_methods = ['GET', 'POST', 'PUT', 'DELETE', 'PATCH']
 
 
 # View functions
